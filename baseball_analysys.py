@@ -175,8 +175,3 @@ def compute_top_stats_career(info, formula, numplayers):
     agg_list = list(agg.values())
     top_ids = top_player_ids(info, agg_list, formula, numplayers)
     return lookup_player_names(info, top_ids)
-
-
-if __name__ == '__main__':
-    # test_baseball_statistics()  # Uncomment for local testing
-    pass
